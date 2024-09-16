@@ -1,0 +1,5 @@
+Epoch [0], last_lr: 0.00812, train_loss: 0.7466, val_loss: 0.5865, val_acc: 0.8319
+Epoch [1], last_lr: 0.00000, train_loss: 0.1248, val_loss: 0.0269, val_acc: 0.9923
+CPU times: user 11min 16s, sys: 7min 13s, total: 18min 30s
+Wall time: 19min 53s
+We got an accuracy of 99.2 %   

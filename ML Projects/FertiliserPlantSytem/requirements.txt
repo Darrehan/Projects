@@ -1,0 +1,9 @@
+conda create -n applefertiliser  python=3.6.12
+conda activate applefertiliser
+pip install numpy pandas Flask scikit-learn requests Pillow gunicorn==20.0.4
+pip install torch==1.7.0+cpu torchvision==0.8.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+conda init
+conda activate applefertiliser
+python app.py
+Dataset url https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
